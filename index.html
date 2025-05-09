@@ -1,1 +1,803 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #fd8893; -webkit-text-stroke: #fd8893}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #c8f199; -webkit-text-stroke: #c8f199}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #ffec9d; -webkit-text-stroke: #ffec9d}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 14.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #5f70a8; -webkit-text-stroke: #5f70a8}
+    span.s1 {font-kerning: none; background-color: #011940}
+    span.s2 {font-kerning: none; color: #c8f199; background-color: #011940; -webkit-text-stroke: 0px #c8f199}
+    span.s3 {font-kerning: none; color: #ffffff; background-color: #011940; -webkit-text-stroke: 0px #ffffff}
+    span.s4 {font-kerning: none; color: #fd8893; background-color: #011940; -webkit-text-stroke: 0px #fd8893}
+    span.s5 {font-kerning: none; color: #e5a8ff; background-color: #011940; -webkit-text-stroke: 0px #e5a8ff}
+    span.s6 {font-kerning: none; color: #ffec9d; background-color: #011940; -webkit-text-stroke: 0px #ffec9d}
+    span.s7 {font-kerning: none; color: #feb97d; background-color: #011940; -webkit-text-stroke: 0px #feb97d}
+    span.s8 {font-kerning: none; color: #8bffff; background-color: #011940; -webkit-text-stroke: 0px #8bffff}
+    span.s9 {font-kerning: none; color: #aed0ff; background-color: #011940; -webkit-text-stroke: 0px #aed0ff}
+    span.s10 {font-kerning: none}
+    span.s11 {font-kerning: none; color: #960d39; background-color: #011940; -webkit-text-stroke: 0px #960d39}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang=</span><span class="s2">"en"</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;meta charset=</span><span class="s2">"UTF-8"</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;meta name=</span><span class="s1">"viewport"</span><span class="s4"> content=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s4">&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;title&gt;</span><span class="s1">Roman Emperor Lookup by Year</span><span class="s4">&lt;/title&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;style&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">body</span><span class="s1"> {</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s6">font-family</span><span class="s3">: </span><span class="s1">'Palatino'</span><span class="s3">, </span><span class="s1">'Times New Roman'</span><span class="s3">, </span><span class="s7">serif</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">max-width</span><span class="s1">: </span><span class="s7">900px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin</span><span class="s1">: </span><span class="s7">0</span><span class="s1"> </span><span class="s7">auto</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#f5f5f0</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s8">#333</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">header</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">text-align</span><span class="s1">: </span><span class="s7">center</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-bottom</span><span class="s1">: </span><span class="s7">30px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-bottom</span><span class="s1">: </span><span class="s7">2px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#8b0000</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding-bottom</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">h1</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s8">#8b0000</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">font-size</span><span class="s1">: </span><span class="s7">2.5rem</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.search-container</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">display</span><span class="s1">: </span><span class="s7">flex</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">justify-content</span><span class="s1">: </span><span class="s7">center</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-bottom</span><span class="s1">: </span><span class="s7">30px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">input</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">10px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">font-size</span><span class="s1">: </span><span class="s7">16px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">width</span><span class="s1">: </span><span class="s7">100px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border</span><span class="s1">: </span><span class="s7">1px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#ccc</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-radius</span><span class="s1">: </span><span class="s7">4px</span><span class="s1"> </span><span class="s7">0</span><span class="s1"> </span><span class="s7">0</span><span class="s1"> </span><span class="s7">4px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">button</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">10px</span><span class="s1"> </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#8b0000</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s7">white</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border</span><span class="s1">: </span><span class="s7">none</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-radius</span><span class="s1">: </span><span class="s7">0</span><span class="s1"> </span><span class="s7">4px</span><span class="s1"> </span><span class="s7">4px</span><span class="s1"> </span><span class="s7">0</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">cursor</span><span class="s1">: </span><span class="s7">pointer</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">font-size</span><span class="s1">: </span><span class="s7">16px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">button</span><span class="s4">:hover</span><span class="s1"> {</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#6d0000</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">#result</span><span class="s1"> {</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s7">white</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-radius</span><span class="s1">: </span><span class="s7">5px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">box-shadow</span><span class="s1">: </span><span class="s7">0</span><span class="s1"> </span><span class="s7">2px</span><span class="s1"> </span><span class="s7">5px</span><span class="s1"> </span><span class="s9">rgba</span><span class="s1">(</span><span class="s7">0</span><span class="s1">,</span><span class="s7">0</span><span class="s1">,</span><span class="s7">0</span><span class="s1">,</span><span class="s7">0.1</span><span class="s1">);</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">display</span><span class="s1">: </span><span class="s7">none</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.emperor-info</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">display</span><span class="s1">: </span><span class="s7">grid</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">grid-template-columns</span><span class="s3">: </span><span class="s7">1fr</span><span class="s3"> </span><span class="s7">1fr</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">gap</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.emperor-portrait</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">text-align</span><span class="s1">: </span><span class="s7">center</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">grid-column</span><span class="s1">: </span><span class="s7">1</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.emperor-details</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">grid-column</span><span class="s1">: </span><span class="s7">2</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.emperor-portrait</span><span class="s3"> </span><span class="s5">img</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">max-width</span><span class="s1">: </span><span class="s7">100%</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">height</span><span class="s1">: </span><span class="s7">auto</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border</span><span class="s1">: </span><span class="s7">5px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#d4af37</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-radius</span><span class="s1">: </span><span class="s7">50%</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">h2</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s8">#8b0000</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-bottom</span><span class="s1">: </span><span class="s7">1px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#d4af37</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding-bottom</span><span class="s1">: </span><span class="s7">5px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">.timeline</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-top</span><span class="s1">: </span><span class="s7">30px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-top</span><span class="s1">: </span><span class="s7">1px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#ccc</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding-top</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.zodiac-info</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-top</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">15px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#f9f2e6</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-left</span><span class="s1">: </span><span class="s7">4px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#d4af37</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.timeline-ruler</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">height</span><span class="s1">: </span><span class="s7">5px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#d4af37</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin</span><span class="s1">: </span><span class="s7">20px</span><span class="s1"> </span><span class="s7">0</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">position</span><span class="s1">: </span><span class="s7">relative</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.timeline-ruler::before</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">content</span><span class="s1">: </span><span class="s9">attr</span><span class="s1">(</span><span class="s7">data-start</span><span class="s1">);</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">position</span><span class="s1">: </span><span class="s7">absolute</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">left</span><span class="s1">: </span><span class="s7">0</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">top</span><span class="s1">: </span><span class="s7">-25px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.timeline-ruler::after</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">content</span><span class="s1">: </span><span class="s9">attr</span><span class="s1">(</span><span class="s7">data-end</span><span class="s1">);</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">position</span><span class="s1">: </span><span class="s7">absolute</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">right</span><span class="s1">: </span><span class="s7">0</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">top</span><span class="s1">: </span><span class="s7">-25px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.timeline-marker</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">position</span><span class="s1">: </span><span class="s7">absolute</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">width</span><span class="s1">: </span><span class="s7">10px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">height</span><span class="s1">: </span><span class="s7">10px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#8b0000</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-radius</span><span class="s1">: </span><span class="s7">50%</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">transform</span><span class="s1">: </span><span class="s9">translate</span><span class="s1">(</span><span class="s7">-50%</span><span class="s1">, </span><span class="s7">-50%</span><span class="s1">);</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">top</span><span class="s1">: </span><span class="s7">50%</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">.error</span><span class="s1"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s8">#8b0000</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">font-style</span><span class="s1">: </span><span class="s7">italic</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.wives-section</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-top</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">.wife-card</span><span class="s1"> {</span></p>
+<p class="p4"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">background-color</span><span class="s3">: </span><span class="s8">#f9f9f9</span><span class="s3">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding</span><span class="s1">: </span><span class="s7">15px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-bottom</span><span class="s1">: </span><span class="s7">10px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">border-left</span><span class="s1">: </span><span class="s7">3px</span><span class="s1"> </span><span class="s7">solid</span><span class="s1"> </span><span class="s8">#d4af37</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">#time-context</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">text-align</span><span class="s1">: </span><span class="s7">center</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">font-style</span><span class="s1">: </span><span class="s7">italic</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-bottom</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">color</span><span class="s1">: </span><span class="s8">#666</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.achievements-list</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">padding-left</span><span class="s1">: </span><span class="s7">20px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">.achievements-list</span><span class="s3"> </span><span class="s5">li</span><span class="s3"> {</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s6">margin-bottom</span><span class="s1">: </span><span class="s7">8px</span><span class="s1">;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;header&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;h1&gt;</span><span class="s1">ROMAN EMPEROR LOOKUP</span><span class="s4">&lt;/h1&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p&gt;</span><span class="s1">Enter a year (27 BCE to 476 CE) to discover which Roman Emperor ruled during that time</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/header&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div class=</span><span class="s1">"search-container"</span><span class="s4">&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;input type=</span><span class="s2">"number"</span><span class="s1"> id=</span><span class="s2">"year-input"</span><span class="s1"> placeholder=</span><span class="s2">"Year"</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;button onclick=</span><span class="s2">"</span><span class="s9">lookupEmperor</span><span class="s2">()"</span><span class="s1">&gt;</span><span class="s3">Search</span><span class="s1">&lt;/button&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s4">&lt;div id=</span><span class="s1">"time-context"</span><span class="s4">&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">&lt;p&gt;</span><span class="s1">Use negative numbers for BCE (Before Common Era) and positive numbers for CE (Common Era)</span><span class="s4">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/div&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;div id=</span><span class="s2">"result"</span><span class="s1">&gt;&lt;/div&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p1"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;script&gt;</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s5">const</span><span class="s1"> </span><span class="s4">emperors</span><span class="s1"> </span><span class="s8">=</span><span class="s1"> [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Augustus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Gaius Octavius (Augustus)"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s8">-</span><span class="s7">27</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">14</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"September 23, 63 BCE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"August 19, 14 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Natural causes"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Libra"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Julio-Claudian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"The first Roman Emperor who established the Roman Empire after the Republic's fall. He greatly expanded Roman territory and initiated an era of relative peace known as Pax Romana."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Established the Roman Empire and the Principate"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Created the Praetorian Guard"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reformed taxation and the military"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Initiated extensive building programs in Rome"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Claudia Pulchra"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">43</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">42</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Political marriage that ended quickly when political alliances shifted"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Scribonia"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">40</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">39</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Julia the Elder"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Divorced her on the same day their daughter was born"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Livia Drusilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">38</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">14</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Augustus' death"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"None together (Livia had sons from previous marriage)"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Most influential and powerful woman in early imperial Rome"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Tiberius"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Tiberius Claudius Nero"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">14</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">37</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"November 16, 42 BCE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"March 16, 37 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Possibly assassination"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Scorpio"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Julio-Claudian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Augustus' stepson and successor. Initially a capable ruler who later became reclusive and left much of the governance to the Praetorian prefect Sejanus."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Successful military campaigns in Germania, Pannonia and Illyricum"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Careful management of the treasury"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Stabilized the frontier provinces"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reformed the Principate's succession system"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Vipsania Agrippina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">20</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">12</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Forced divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Drusus Julius Caesar"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Tiberius was forced to divorce her by Augustus"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Julia the Elder"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">11</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">2</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Julia's exile"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Unhappy political marriage arranged by Augustus"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Caligula"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Gaius Julius Caesar Augustus Germanicus (Caligula)"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">37</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">41</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"August 31, 12 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"January 24, 41 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Assassination"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Virgo"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Julio-Claudian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Great-grandson of Augustus, remembered as an insane tyrant. Started his reign with popularity but quickly descended into apparent madness and cruelty."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Completed Temple of Augustus"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Expanded the imperial palace"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">"Annexed Mauretania"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Attempted invasion of Britain"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Junia Claudilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">33</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">34</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Death in childbirth"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None survived"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s1">: </span><span class="s2">"Died during childbirth"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Livia Orestilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">37</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">37</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Caligula took her from her husband at their wedding feast"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Lollia Paulina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">38</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">39</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Extremely wealthy woman, later killed by Agrippina the Younger"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Milonia Caesonia"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">39</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">41</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s3">: </span><span class="s1">"Assassination alongside Caligula"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Julia Drusilla"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Remained loyal to Caligula, killed after his assassination"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Claudius"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Tiberius Claudius Caesar Augustus Germanicus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">41</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">54</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"August 1, 10 BCE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"October 13, 54 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Poisoned (likely by Agrippina)"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Leo"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Julio-Claudian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Uncle of Caligula who was unexpectedly declared emperor by the Praetorian Guard. Despite physical disabilities, he proved an able administrator who expanded the Empire."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">"Conquest of Britain"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Expanded Roman citizenship"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Major public works including aqueducts and canals"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">"Judicial reforms"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Plautia Urgulanilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">9</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">24</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"Claudius Drusus (died young)"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Divorced due to suspected adultery"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Aelia Paetina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">28</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">31</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Claudia Antonia"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Divorced for political reasons"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Valeria Messalina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">38</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">48</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Execution"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"Claudia Octavia, Britannicus"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Executed for conspiracy and alleged adultery"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Agrippina the Younger"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">49</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">54</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Claudius' death"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"None together (Agrippina's son Nero became emperor)"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Likely poisoned Claudius to secure throne for her son Nero"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Nero"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Nero Claudius Caesar Augustus Germanicus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">54</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">68</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"December 15, 37 CE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"June 9, 68 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Suicide"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Sagittarius"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Julio-Claudian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"The last emperor of the Julio-Claudian dynasty. Started with a promising reign but became increasingly erratic and cruel. Known for the Great Fire of Rome and persecution of Christians."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Diplomatic settlement with Parthia"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Construction of the Domus Aurea"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Suppression of the British revolt led by Boudica"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Patronage of arts and athletics"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Claudia Octavia"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">53</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">62</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce and execution"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Daughter of Claudius, executed on false charges of adultery"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Poppaea Sabina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">62</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">65</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s3">: </span><span class="s1">"Death (allegedly kicked to death by Nero)"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"Claudia Augusta (died in infancy)"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Allegedly killed when Nero kicked her during pregnancy"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Statilia Messalina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">66</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">68</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Nero's suicide"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Survived Nero and lived into old age"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Galba"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Servius Sulpicius Galba"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">68</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"December 24, 3 BCE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"January 15, 69 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Assassination"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Capricorn"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s3">: </span><span class="s1">"Year of the Four Emperors"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Elderly governor who took power after Nero's suicide. His strict discipline and financial frugality made him unpopular, leading to his quick overthrow."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Ended Nero's excessive spending"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reformed military discipline"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Attempted fiscal reforms"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"First emperor in the Year of Four Emperors"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Aemilia Lepida"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">20</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s8">-</span><span class="s7">20</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Two sons who died young"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Died shortly after marriage"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Otho"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Marcus Salvius Otho"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"April 28, 32 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"April 16, 69 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Suicide"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Taurus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s3">: </span><span class="s1">"Year of the Four Emperors"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Former friend of Nero who helped overthrow Galba. Committed suicide after losing to Vitellius in the civil war."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reversed many of Galba's unpopular policies"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Maintained stability in Rome during his short reign"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Gained support of the Praetorian Guard"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Honorable suicide to prevent further bloodshed"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Poppaea Sabina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">58</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">62</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Poppaea married Nero"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Later became Nero's wife after Otho was sent to govern Lusitania"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Vitellius"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Aulus Vitellius Germanicus Augustus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"September 24, 15 CE"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s3">: </span><span class="s1">"December 22, 69 CE"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Execution by Vespasian's forces"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Libra"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s3">: </span><span class="s1">"Year of the Four Emperors"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Third emperor in the Year of Four Emperors. Known for his gluttony and cruelty. Defeated by Vespasian's forces after just eight months."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Gained support of Germanic legions"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Defeated Otho's forces at the First Battle of Bedriacum"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Attempted reforms of the Praetorian Guard"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Established control over most of the western provinces"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Petronia"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">40</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">45</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Vitellius Petronianus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"First wife, little is known about her"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Galeria Fundana"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">50</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Vitellius' death"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Son and daughter"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Her children were killed after Vitellius' defeat"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Vespasian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Titus Flavius Vespasianus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">69</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">79</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"November 17, 9 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"June 23, 79 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Natural causes"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Scorpio"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Flavian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Founder of the Flavian dynasty who restored stability after the chaos of 69 CE. Known for his military success, fiscal reforms, and construction projects including the Colosseum."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Suppressed the Jewish revolt and took Jerusalem"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Restored financial stability to the empire"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Began construction of the Colosseum"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reformed the military and expanded the Senate"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Flavia Domitilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">38</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">65</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"Titus, Domitian, Domitilla the Younger"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Died before Vespasian became emperor"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Titus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Titus Flavius Vespasianus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">79</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">81</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"December 30, 39 CE"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s3">: </span><span class="s1">"September 13, 81 CE"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Fever (possibly poisoned)"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Capricorn"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Flavian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Son of Vespasian known for his generosity and response to disasters including the eruption of Mount Vesuvius and a fire in Rome. His short reign was considered successful."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Completed the Colosseum"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Led relief efforts after Vesuvius eruption"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Managed recovery from a major fire in Rome"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Maintained fiscal responsibility despite disaster relief"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Arrecina Tertulla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">62</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">65</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None recorded"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Daughter of a Praetorian prefect"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Marcia Furnilla"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">65</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">66</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Divorce"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"Julia Flavia"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Divorced after her family was implicated in a conspiracy"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Domitian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Titus Flavius Domitianus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">81</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">96</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"October 24, 51 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s3">: </span><span class="s1">"September 18, 96 CE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Assassination"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Scorpio"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Flavian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Younger son of Vespasian and last of the Flavian dynasty. Effective administrator but became increasingly paranoid and tyrannical, leading to his assassination."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Strengthened Rome's northern frontiers"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Substantial building program including the Temple of Jupiter"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Economic reforms and currency revaluation"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Expanded the imperial bureaucracy"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Domitia Longina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">71</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">96</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Domitian's assassination"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"One son who died young"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Temporarily divorced and then remarried; may have been involved in his assassination plot"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Nerva"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Marcus Cocceius Nerva"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">96</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">98</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"November 8, 30 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"January 27, 98 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Natural causes"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Scorpio"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Elderly senator chosen as emperor after Domitian's assassination. Known for his moderate policies and establishing the tradition of adopting a worthy successor."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Established the practice of adopting qualified successors"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Land reforms to help the poor"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reduced taxes and improved financial administration"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Reconciled relations between the Senate and the throne"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Unknown"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s2">"Unknown"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s2">"Before 96"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Unknown"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None recorded"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Little information exists about Nerva's wife or marriages"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Trajan"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Marcus Ulpius Traianus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">98</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">117</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"September 18, 53 CE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"August 8, 117 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Illness while campaigning"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Virgo"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"First non-Italian emperor, born in Hispania. Military commander who expanded the empire to its greatest territorial extent and undertook extensive public building programs."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Extended the Empire to its greatest territorial extent"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Conquest of Dacia and campaigns against Parthia"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Extensive building program including Trajan's Forum and Market"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Social welfare programs including alimenta for poor children"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Pompeia Plotina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s2">"Before 98"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">117</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Trajan's death"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Influential and respected empress who helped secure Hadrian's succession"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Hadrian"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Publius Aelius Hadrianus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">117</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">138</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"January 24, 76 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"July 10, 138 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Heart failure"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Aquarius"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Known for consolidating rather than expanding the empire. Focused on strengthening borders (e.g., Hadrian's Wall), infrastructure, and cultural development. A philhellene who spent much time traveling throughout the empire."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Construction of Hadrian's Wall in Britain"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Rebuilt the Pantheon in Rome"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Extensive travel throughout the provinces"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Support for Greek culture and architecture"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Vibia Sabina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">100</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">136</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Unhappy marriage; Sabina was Trajan's grandniece"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Antoninus Pius"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Titus Aelius Hadrianus Antoninus Pius"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">138</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">161</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s3">: </span><span class="s1">"September 19, 86 CE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"March 7, 161 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Natural causes"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Virgo"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Adopted by Hadrian as his successor. Known for his peaceful and prosperous reign with effective but unspectacular governance. Rarely left Italy during his reign."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"One of the most peaceful reigns in Roman history"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Sound financial management"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Legal reforms improving the status of slaves and minors"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Building projects including the Temple of Antoninus and Faustina"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Faustina the Elder"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">110</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">140</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"Four children including Faustina the Younger"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Deeply mourned by Antoninus who deified her after her death"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Marcus Aurelius"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Marcus Aurelius Antoninus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">161</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">180</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"April 26, 121 CE"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s1">: </span><span class="s2">"March 17, 180 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Illness (possibly plague)"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Taurus"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Philosopher emperor and author of 'Meditations.' His reign was marked by military conflicts and the Antonine Plague. Initially co-ruled with Lucius Verus."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Wrote 'Meditations', a key work of Stoic philosophy"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Successful campaigns against Germanic tribes"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Managed the Antonine Plague crisis"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Established charity schools for orphans"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Faustina the Younger"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">145</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">175</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Her death"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s3">: </span><span class="s1">"13 children including Commodus"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Accompanied Marcus on campaigns; deified after her death"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Commodus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Lucius Aurelius Commodus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">180</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">192</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"August 31, 161 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s3">: </span><span class="s1">"December 31, 192 CE"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s1">: </span><span class="s2">"Assassination"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Virgo"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Nerva–Antonine"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"Son of Marcus Aurelius who broke the tradition of adopted succession. Increasingly unstable and megalomaniacal, identifying himself with Hercules and participating in gladiatorial games."</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">achievements</span><span class="s1">: [</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Peace settlement with Germanic tribes"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Participated personally in gladiatorial games"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Renamed Rome as 'Colonia Commodiana'"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                    </span></span><span class="s1">"Extended Roman citizenship to provinces"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">wives</span><span class="s1">: [</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Bruttia Crispina"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">marriageYear</span><span class="s1">: </span><span class="s7">178</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endYear</span><span class="s1">: </span><span class="s7">187</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">endReason</span><span class="s1">: </span><span class="s2">"Exiled and executed"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s4">children</span><span class="s1">: </span><span class="s2">"None"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                        </span></span><span class="s4">notes</span><span class="s3">: </span><span class="s1">"Accused of adultery and executed on Commodus' orders"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span>],</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">portrait</span><span class="s3">: </span><span class="s1">"/api/placeholder/250/250"</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>},</span></p>
+<p class="p6"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s1">// More emperors would be added here, but for space constraints I've included just these major rulers</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">            </span>{</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">name</span><span class="s1">: </span><span class="s2">"Septimius Severus"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">fullName</span><span class="s3">: </span><span class="s1">"Lucius Septimius Severus"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignStart</span><span class="s1">: </span><span class="s7">193</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">reignEnd</span><span class="s1">: </span><span class="s7">211</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">birthDate</span><span class="s1">: </span><span class="s2">"April 11, 145 CE"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathDate</span><span class="s3">: </span><span class="s1">"February 4, 211 CE"</span><span class="s3">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">deathCause</span><span class="s3">: </span><span class="s1">"Natural causes while campaigning"</span><span class="s3">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">zodiac</span><span class="s1">: </span><span class="s2">"Aries"</span><span class="s1">,</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s4">dynasty</span><span class="s1">: </span><span class="s2">"Severan"</span><span class="s1">,</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space">                </span></span><span class="s4">description</span><span class="s3">: </span><span class="s1">"First emperor from North Africa who founded the Severan dynasty. Military commander who secured powe</span><span class="s11">r</span></p>
+</body>
+</html>
